@@ -1,3 +1,4 @@
+'''python
 #Call Libraries
 import arcpy
 from arcpy import env
@@ -48,3 +49,4 @@ arcpy.DeleteField_management("EIrT1930_Dissolve",["SUM_SegLen","SUM_RdArea","SUM
 
 #Join the Dissolve file to the Census Tracts with Area file
 arcpy.DeleteField_management("EIrT1930_Dissolve",["SUM_SegLen","SUM_RdArea","SUM_T1110L","SUM_T1200L","SUM_T1300L","SUM_T130_1","SUM_T1400L","SUM_T1500L","MEAN_AreaT"])
+'''
